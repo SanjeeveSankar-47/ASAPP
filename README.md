@@ -4,7 +4,7 @@
 [![Languages](https://img.shields.io/github/languages/top/SanjeeveSankar-47/ASAPP)]()
 [![License](https://img.shields.io/github/license/SanjeeveSankar-47/ASAPP)]()
 
-A concise, well-organized repository combining Python backend components and JavaScript frontend pieces. ASAPP appears to be a mixed-language project (Python + JS) — this README gives a practical starting place for contributors and maintainers.
+A concise, well-organized repository combining Python backend components and Streamlit frontend pieces. ASAPP appears to be a mixed-language project (Python + JS) — this README gives a practical starting place for contributors and maintainers.
 
 Quick language breakdown (from repository analysis)
 - Python: 62.2%
@@ -33,7 +33,7 @@ Quick language breakdown (from repository analysis)
 
 ## About
 
-ASAPP is a mixed stack project with a Python-heavy codebase and a JavaScript frontend. This repository may contain API services, utilities, and a frontend UI. This README provides a general setup and workflow to get the project running locally and help future contributors onboard quickly.
+ASAPP is a mixed stack project with a Python-heavy codebase and a Streamlit frontend. This repository may contain API services, utilities, and a frontend UI. This README provides a general setup and workflow to get the project running locally and help future contributors onboard quickly.
 
 ---
 
