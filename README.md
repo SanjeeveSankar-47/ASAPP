@@ -112,12 +112,9 @@ Be sure not to commit secrets. Add `.env` to `.gitignore`.
 Example: run the backend API locally
 
 1. Activate the Python virtual environment
-2. Run the app (adapt to the framework present — Flask, FastAPI, Django, etc.)
 
 - FastAPI / Uvicorn example:
   uvicorn app.main:app --reload
-
-Open the frontend dev server (if any) at the address printed by the frontend tooling (commonly http://localhost:3000 or http://localhost:5173).
 
 ---
 
@@ -129,18 +126,6 @@ Open the frontend dev server (if any) at the address printed by the frontend too
 
 
 If there are no tests configured, consider adding unit and integration tests for critical functionality.
-
----
-
-## Linting & Formatting
-
-Recommended tools:
-- Python: black, isort, flake8
-- JavaScript: eslint, prettier
-
-Example (Python) pre-commit:
-pip install pre-commit
-pre-commit install
 
 ---
 
