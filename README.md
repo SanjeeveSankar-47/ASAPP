@@ -8,9 +8,6 @@ A concise, well-organized repository combining Python backend components and Jav
 
 Quick language breakdown (from repository analysis)
 - Python: 62.2%
-- JavaScript: 22.7%
-- CSS: 12.4%
-- HTML: 2.7%
 
 ---
 
@@ -43,8 +40,6 @@ ASAPP is a mixed stack project with a Python-heavy codebase and a JavaScript fro
 ## Features
 
 - Python backend services (APIs, workers, or scripts)
-- JavaScript frontend components and UI assets
-- Styling with CSS and static HTML files
 - Tests for both backend and frontend (where present)
 
 ---
@@ -52,9 +47,8 @@ ASAPP is a mixed stack project with a Python-heavy codebase and a JavaScript fro
 ## Tech stack
 
 - Backend: Python (versions 3.8+ recommended)
-- Frontend: JavaScript (Node.js + npm/yarn)
-- Styling: CSS / HTML
-- Testing: pytest (Python), jest / other JS test runner (if included)
+- Frontend: streamlit
+- backend: FastAPI
 
 ---
 
@@ -69,7 +63,6 @@ Install these tools on your machine:
 - Git
 - Python 3.8+ (3.11 recommended)
 - pip (or pipx / pipenv)
-- Node.js 14+ and npm (or yarn)
 - Optional: virtualenv or venv for Python
 
 ### Local setup (Python)
@@ -135,7 +128,6 @@ This is an example layout — match it to the actual repository structure:
 
 - /app or /src — Python application code
 - /scripts — utility or deployment scripts
-- /frontend or /web — JavaScript frontend
 - requirements.txt — Python dependencies
 - package.json — Node dependencies and scripts
 - README.md — this file
